@@ -131,11 +131,14 @@ export default function HomeScreen() {
 					createWallet('com.coinbase.wallet'),
 				]}
 				connectButton={{
-					label: 'Sign in to ✨ MyApp',
+					label: 'Sign in to ✨ D-Hunt',
 				}}
 				connectModal={{
-					title: '✨ MyApp Login',
+					title: '✨ D-Hunt Login',
 					showThirdwebBranding: false,
+				}}
+				walletConnect={{
+					projectId: 'aab64f56aa47e71810ab5e473c0452ca',
 				}}
 			/>
 			<View style={{ height: 16 }} />

@@ -14,8 +14,7 @@
 		},
 		"ios": {
 			"supportsTablet": true,
-			"bundleIdentifier": "com.superio.dhunt",
-			"associatedDomains": ["webcredentials:superio.ai", "applinks:superio.ai"]
+			"bundleIdentifier": "com.superio.dhunt"
 		},
 		"android": {
 			"adaptiveIcon": {
@@ -58,6 +57,12 @@
 							}
 						]
 					}
+				}
+			],
+			[
+				"expo-location",
+				{
+					"locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
 				}
 			]
 		],
